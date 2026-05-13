@@ -31,35 +31,28 @@ This repository contains a C implementation of an advanced Tic-Tac-Toe game feat
 
 The AI's decision-making process is handled by the `guessNextMove` function. It prioritizes moves in the following order:
 
-1. 
-**Win:** If a move results in an immediate victory, it is taken.
+1. **Win:** If a move results in an immediate victory, it is taken.
 
 
-2. 
-**Block:** If the user is one move away from winning, the AI uses the `preventThree` function to block them.
+2. **Block:** If the user is one move away from winning, the AI uses the `preventThree` function to block them.
 
 
-3. 
-**Predict:** If no immediate win or block is available, the `futureState` function recursively explores all possible permutations of the board to find the path with the highest probability of success.
+3. **Predict:** If no immediate win or block is available, the `futureState` function recursively explores all possible permutations of the board to find the path with the highest probability of success.
 
 
 
 ### Key Functions
 
-* 
-`futureState`: Evaluates possible game outcomes by assigning positive scores for AI wins and negative scores for user wins.
+* `futureState`: Evaluates possible game outcomes by assigning positive scores for AI wins and negative scores for user wins.
 
 
-* 
-`result`: Constantly monitors the board for a win, loss, draw, or ongoing status.
+* `result`: Constantly monitors the board for a win, loss, draw, or ongoing status.
 
 
-* 
-`isItLegal`: Validates user input to ensure moves are only placed in empty cells (`N`).
+* `isItLegal`: Validates user input to ensure moves are only placed in empty cells (`N`).
 
 
-* 
-`printBoard`: Renders the current $3 \times 3$ grid to the console.
+* `printBoard`: Renders the current $3 \times 3$ grid to the console.
 
 
 
@@ -89,16 +82,13 @@ gcc tictactoe.c -o tictactoe
 
 ### 3. Gameplay Steps
 
-1. 
-**Select Mode:** Enter `1` for Normal or `2` for 3x mode.
+1. **Select Mode:** Enter `1` for Normal or `2` for 3x mode.
 
 
-2. 
-**Set Order:** Enter `1` for Computer first or `2` for User first.
+2. **Set Order:** Enter `1` for Computer first or `2` for User first.
 
 
-3. 
-**Input Move:** When prompted, enter your coordinates (e.g., `11` for the center).
+3. **Input Move:** When prompted, enter your coordinates (e.g., `11` for the center).
 
 
 
@@ -106,17 +96,13 @@ gcc tictactoe.c -o tictactoe
 
 ## 🎓 Academic Credits
 
-* 
-**Course:** Fundamentals of Computer Science and Programming 
+* **Course:** Fundamentals of Computer Science and Programming 
 
 
-* 
-**Instructor:** Dr. Rasoul Ramezanian 
+* **Instructor:** Dr. Rasoul Ramezanian 
 
 
-* 
-**Developer:** Amirhossein Noshadi 
+* **Developer:** Amirhossein Noshadi 
 
 
-* 
-**Date:** February 2022 (Bahman 1400)
+* **Date:** February 2022 (Bahman 1400)
