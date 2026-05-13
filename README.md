@@ -88,17 +88,4 @@ gcc tictactoe.c -o tictactoe
 
 
 
----
-
-## 🎓 Academic Credits
-
-* **Course:** Fundamentals of Computer Science and Programming 
-
-
-* **Instructor:** Dr. Rasoul Ramezanian 
-
-
-* **Developer:** Amirhossein Noshadi 
-
-
 * **Date:** February 2022 (Bahman 1400)
