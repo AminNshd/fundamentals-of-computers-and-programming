@@ -6,20 +6,16 @@ This repository contains a C implementation of an advanced Tic-Tac-Toe game feat
 
 ## 🎮 Game Features
 
-* 
-**Mode 1: Normal Tic-Tac-Toe** – The classic $3 \times 3$ game where players aim for three in a row.
+* **Mode 1: Normal Tic-Tac-Toe** – The classic $3 \times 3$ game where players aim for three in a row.
 
 
-* 
-**Mode 2: 3x Tic-Tac-Toe** – A modified version with a 6-turn limit as per specific project guidelines.
+* **Mode 2: 3x Tic-Tac-Toe** – A modified version with a 6-turn limit as per specific project guidelines.
 
 
-* 
-**Unbeatable AI** – Utilizes a recursive state-space search to ensure the computer never loses if played optimally.
+* **Unbeatable AI** – Utilizes a recursive state-space search to ensure the computer never loses if played optimally.
 
 
-* 
-**Customizable Start** – Choose whether the computer or the user takes the first turn.
+* **Customizable Start** – Choose whether the computer or the user takes the first turn.
 
 
 
