@@ -88,4 +88,4 @@ gcc tictactoe.c -o tictactoe
 
 
 
-* **Date:** February 2022 (Bahman 1400)
+## **Date:** February 2022 (Bahman 1400)
